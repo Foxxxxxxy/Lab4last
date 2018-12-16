@@ -10,3 +10,4 @@
 Запустк проекту за допомогою Docker
 1. Ввести команду docker build -t lab4 . у консолі з папки проекту
 2. Ввести команду docker run -d -p 5000:5000 -v ${pwd}/app -v ${pwd}/client/build lab4
+3. Відкрити у браузері посилання http://localhost:5000
