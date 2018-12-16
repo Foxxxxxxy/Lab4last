@@ -6,3 +6,7 @@
 4. Ввести команду "npm install" у powershell
 5. Ввести команду "npm run" client install у powershell
 6. Ввести команду "npm run" dev у powershell.# Lab4last
+
+Запустк проекту за допомогою Docker
+1. Ввести команду docker build -t lab4 . у консолі з папки проекту
+2. Ввести команду docker run -d -p 5000:5000 -v ${pwd}/app -v ${pwd}/client/build lab4
